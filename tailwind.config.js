@@ -86,6 +86,10 @@ module.exports = {
         'collapsible-up': 'collapsible-up 0.2s ease-in-out',
       },
     },
+    fontFamily: {
+      mono: ['JetBrains Mono', 'monospace'],
+      ubuntu: ['Ubuntu', 'sans-serif'],
+    },
   },
   plugins: [animate],
 };
