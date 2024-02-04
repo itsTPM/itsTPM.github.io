@@ -75,6 +75,9 @@
   body {
     @apply h-screen bg-background text-foreground;
   }
+  #app {
+    @apply h-screen;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
