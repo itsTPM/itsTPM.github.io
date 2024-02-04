@@ -9,7 +9,5 @@
   "arrowParens": "always",
   "htmlWhitespaceSensitivity": "ignore",
   "bracketSameLine": true,
-  "plugins": [
-    "prettier-plugin-tailwindcss"
-  ]
+  "plugins": ["prettier-plugin-tailwindcss"]
 }
