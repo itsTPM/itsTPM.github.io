@@ -4,17 +4,17 @@ import CardSidebarButton from '@/components/Card/CardSidebarButton.vue';
 const links = [
   {
     title: 'Telegram',
-    icon: 'telegram',
+    icon: 'Telegram-Logo.svg',
     url: 'https://t.me/itsTPM',
   },
   {
     title: 'GitHub',
-    icon: 'github',
+    icon: 'GitHub-Logo.svg',
     url: 'https://github.com/itsTPM',
   },
   {
     title: 'Spotify',
-    icon: 'spotify',
+    icon: 'Spotify-Logo.svg',
     url: 'https://open.spotify.com/user/lyoshabt',
   },
 ];
@@ -31,7 +31,7 @@ const links = [
         <span class="font-ubuntu text-[16px] font-light">pseudo-frontend™</span>
       </div>
       <div class="grid grid-cols-3 grid-rows-1 gap-4">
-        <CardSidebarButton v-for="link in links"></CardSidebarButton>
+        <CardSidebarButton v-for="item in links" :item="item"></CardSidebarButton>
       </div>
     </div>
   </section>
