@@ -6,24 +6,24 @@ const lists = [
     name: 'Tech Stack',
     items: [
       {
+        name: 'HTML',
+        icon: 'HTML-Logo.svg',
+      },
+      {
+        name: 'CSS',
+        icon: 'CSS-Logo.svg',
+      },
+      {
+        name: 'TailwindCSS',
+        icon: 'TailwindCSS-Logo.svg',
+      },
+      {
+        name: 'JavaScript',
+        icon: 'JavaScript-Logo.svg',
+      },
+      {
         name: 'Vue.js',
-        icon: 'https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg',
-      },
-      {
-        name: 'React.js',
-        icon: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg',
-      },
-      {
-        name: 'Node.js',
-        icon: 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg',
-      },
-      {
-        name: 'Express.js',
-        icon: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png',
-      },
-      {
-        name: 'MongoDB',
-        icon: 'https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg',
+        icon: 'Vue.js-Logo.svg',
       },
     ],
   },
@@ -32,23 +32,23 @@ const lists = [
     items: [
       {
         name: 'VS Code',
-        icon: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg',
+        icon: 'VSCode-Logo.svg',
       },
       {
-        name: 'Figma',
-        icon: 'https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg',
+        name: 'WebStorm',
+        icon: 'WebStorm-Logo.svg',
       },
       {
         name: 'Git',
-        icon: 'https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg',
-      },
-      {
-        name: 'GitHub',
-        icon: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg',
+        icon: 'Git-Logo.svg',
       },
       {
         name: 'Vite',
-        icon: 'https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg',
+        icon: 'Vite-Logo.svg',
+      },
+      {
+        name: 'Figma',
+        icon: 'Figma-Logo.svg',
       },
     ],
   },
