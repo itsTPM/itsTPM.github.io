@@ -85,6 +85,9 @@ module.exports = {
         'collapsible-down': 'collapsible-down 0.2s ease-in-out',
         'collapsible-up': 'collapsible-up 0.2s ease-in-out',
       },
+      backgroundImage: {
+        'card-avatar': "url('@/assets/bg.png')",
+      },
     },
     fontFamily: {
       sans: ['Inter', 'Open Sans', 'sans-serif'],
