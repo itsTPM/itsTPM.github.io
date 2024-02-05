@@ -87,6 +87,7 @@ module.exports = {
       },
     },
     fontFamily: {
+      sans: ['Inter', 'Open Sans', 'sans-serif'],
       mono: ['JetBrains Mono', 'monospace'],
       ubuntu: ['Ubuntu', 'sans-serif'],
     },
