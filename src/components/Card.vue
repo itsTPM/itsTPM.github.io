@@ -4,7 +4,7 @@ import CardContent from '@/components/Card/CardContent.vue';
 </script>
 
 <template>
-  <div class="flex h-[600px] w-[1000px] rounded-lg bg-amber-300">
+  <div class="flex h-[600px] w-[1000px] rounded-lg">
     <CardSidebar></CardSidebar>
     <CardContent></CardContent>
   </div>

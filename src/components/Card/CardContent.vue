@@ -54,14 +54,14 @@ const lists = [
 </script>
 
 <template>
-  <section class="flex h-full w-full flex-col justify-center gap-9 rounded-r-lg bg-purple-300 p-10">
+  <section class="flex h-full w-full flex-col justify-center gap-9 rounded-r-lg p-10">
     <div v-for="(list, idx) in lists" :key="idx" class="flex flex-col gap-9">
       <span class="text-2xl">{{ list.name }}</span>
       <div class="grid grid-cols-5 grid-rows-1 gap-[20px]">
         <div
           v-for="(item, idx) in list.items"
           :key="idx"
-          class="flex flex-col items-center justify-center rounded-lg border border-[#222] bg-orange-400 p-3">
+          class="flex flex-col items-center justify-center rounded-lg border border-[#222] p-3">
           <img :src="item.icon" alt="" class="h-[64px] w-[64px] object-contain" />
           <span>{{ item.name }}</span>
         </div>
