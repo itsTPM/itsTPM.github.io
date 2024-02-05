@@ -61,7 +61,7 @@ const lists = [
         <div
           v-for="(item, idx) in list.items"
           :key="idx"
-          class="flex flex-col items-center justify-center rounded-lg border border-[#222] p-3">
+          class="flex flex-col items-center justify-center rounded-lg border border-[#222] bg-[rgba(0,0,0,0.2)] p-3">
           <img :src="item.icon" alt="" class="h-[64px] w-[64px] object-contain" />
           <span>{{ item.name }}</span>
         </div>

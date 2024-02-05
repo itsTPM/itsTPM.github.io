@@ -21,7 +21,7 @@ const links = [
 </script>
 
 <template>
-  <section class="flex h-full w-[256px] flex-col rounded-s-lg">
+  <section class="flex h-full w-[256px] flex-col rounded-s-lg border-r border-[#222]">
     <div class="h-[256px] w-[256px] rounded-ss-lg">
       <!-- Avatar -->
     </div>
