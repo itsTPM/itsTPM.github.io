@@ -23,7 +23,11 @@ const links = [
 <template>
   <section class="flex h-full w-[256px] flex-col rounded-s-lg border-r">
     <div class="h-[256px] w-[256px] rounded-ss-lg">
-      <img alt="Avatar" class="rounded-ss-lg object-contain" src="https://avatars.githubusercontent.com/u/26815728" />
+      <img
+        alt="Avatar"
+        class="select-none rounded-ss-lg object-contain"
+        draggable="false"
+        src="https://avatars.githubusercontent.com/u/26815728" />
     </div>
     <div class="flex flex-grow flex-col items-center justify-between rounded-es-lg p-6">
       <div class="flex flex-col items-center justify-center">
