@@ -10,7 +10,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="flex flex-col gap-9">
+  <div class="flex w-full flex-col gap-9">
     <span class="text-2xl">{{ list.name }}</span>
     <div class="grid grid-cols-5 grid-rows-1 gap-[20px]">
       <ListItem v-for="(item, idx) in list.items" :key="idx" :item="item"></ListItem>

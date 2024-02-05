@@ -56,7 +56,7 @@ const lists = [
 </script>
 
 <template>
-  <section class="flex h-full w-full flex-col justify-center gap-9 rounded-r-lg p-10">
+  <section class="flex h-full w-full flex-col items-baseline justify-center gap-9 rounded-r-lg p-10">
     <List v-for="(list, idx) in lists" :key="idx" :list="list"></List>
     <span class="select-none text-[32px]">My Projects -></span>
   </section>
