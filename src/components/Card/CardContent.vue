@@ -1,4 +1,6 @@
 <script setup>
+import List from '@/components/List/List.vue';
+
 const lists = [
   {
     name: 'Tech Stack',
@@ -55,19 +57,7 @@ const lists = [
 
 <template>
   <section class="flex h-full w-full flex-col justify-center gap-9 rounded-r-lg p-10">
-    <div v-for="(list, idx) in lists" :key="idx" class="flex flex-col gap-9">
-      <span class="text-2xl">{{ list.name }}</span>
-      <div class="grid grid-cols-5 grid-rows-1 gap-[20px]">
-        <div
-          v-for="(item, idx) in list.items"
-          :key="idx"
-          class="flex select-none flex-col items-center justify-center rounded-lg border bg-[rgba(0,0,0,0.2)] p-3 transition hover:scale-110">
-          <img :src="item.icon" alt="" class="h-[64px] w-[64px] object-contain" />
-          <span>{{ item.name }}</span>
-        </div>
-      </div>
-    </div>
-
+    <List v-for="(list, idx) in lists" :key="idx" :list="list"></List>
     <span class="select-none text-[32px]">My Projects -></span>
   </section>
 </template>
