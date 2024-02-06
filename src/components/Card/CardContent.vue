@@ -56,7 +56,7 @@ const lists = [
 </script>
 
 <template>
-  <section class="flex h-full w-full flex-col items-baseline justify-center gap-9 rounded-r-lg p-10">
+  <section class="flex h-full w-full flex-col items-baseline justify-center gap-9 rounded-r-lg px-10 py-12">
     <List v-for="(list, idx) in lists" :key="idx" :list="list"></List>
     <span
       class="after:animate-bounce-to-right cursor-pointer select-none text-[32px] after:inline-block after:transition after:content-['->'] hover:after:translate-x-2">
