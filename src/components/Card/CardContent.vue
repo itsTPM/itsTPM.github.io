@@ -1,5 +1,6 @@
 <script setup>
 import List from '@/components/List/List.vue';
+import { HoverCard, HoverCardContent, HoverCardTrigger } from '@/components/ui/hover-card';
 
 const lists = [
   {
@@ -58,9 +59,19 @@ const lists = [
 <template>
   <section class="flex h-full w-full flex-col items-baseline justify-center gap-9 rounded-r-lg px-10 py-12">
     <List v-for="(list, idx) in lists" :key="idx" :list="list"></List>
-    <span
-      class="after:animate-bounce-to-right cursor-pointer select-none text-[32px] after:inline-block after:transition after:content-['->'] hover:after:translate-x-2">
-      My Projects
-    </span>
+
+    <HoverCard close-delay="200" openDelay="0">
+      <HoverCardTrigger>
+        <span
+          class="cursor-pointer select-none text-[32px] after:inline-block after:animate-bounce-to-right after:transition after:content-['->'] hover:after:translate-x-2">
+          My Projects
+        </span>
+      </HoverCardTrigger>
+
+      <HoverCardContent>
+        <div class="font-bold">This page isn't ready yet :P</div>
+        <div>But one day it will be available...</div>
+      </HoverCardContent>
+    </HoverCard>
   </section>
 </template>
