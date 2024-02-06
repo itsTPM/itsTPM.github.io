@@ -81,8 +81,6 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    @apply dark;
-  }
+body {
+  @apply dark;
 }
