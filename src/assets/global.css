@@ -73,14 +73,12 @@
   * {
     @apply border-border;
   }
+
   body {
-    @apply h-screen bg-background text-foreground;
+    @apply dark h-screen bg-background text-foreground;
   }
+
   #app {
     @apply min-h-dvh;
   }
-}
-
-body {
-  @apply dark;
 }

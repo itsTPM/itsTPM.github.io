@@ -17,7 +17,7 @@ const props = defineProps({
     <HoverCard close-delay="200" openDelay="0">
       <HoverCardTrigger>
         <span
-          class="cursor-pointer select-none text-[32px] after:inline-block after:animate-bounce-to-right after:transition after:content-['->'] hover:after:translate-x-2">
+          class="cursor-pointer select-none text-[32px] after:inline-block after:transition after:content-['->'] motion-safe:after:animate-bounce-to-right motion-safe:hover:after:translate-x-2">
           My Projects
         </span>
       </HoverCardTrigger>
