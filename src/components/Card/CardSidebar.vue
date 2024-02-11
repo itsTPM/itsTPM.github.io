@@ -1,23 +1,12 @@
 <script setup>
 import CardSidebarButton from '@/components/Card/CardSidebarButton.vue';
 
-const links = [
-  {
-    title: 'Telegram',
-    icon: 'Telegram-Logo.svg',
-    url: 'https://t.me/itsTPM',
+const props = defineProps({
+  links: {
+    type: Array,
+    required: true,
   },
-  {
-    title: 'GitHub',
-    icon: 'GitHub-Logo.svg',
-    url: 'https://github.com/itsTPM',
-  },
-  {
-    title: 'Spotify',
-    icon: 'Spotify-Logo.svg',
-    url: 'https://open.spotify.com/user/lyoshabt',
-  },
-];
+});
 </script>
 
 <template>

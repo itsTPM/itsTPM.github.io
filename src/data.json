@@ -1,0 +1,71 @@
+{
+  "links": [
+    {
+      "title": "Telegram",
+      "icon": "Telegram-Logo.svg",
+      "url": "https://t.me/itsTPM"
+    },
+    {
+      "title": "GitHub",
+      "icon": "GitHub-Logo.svg",
+      "url": "https://github.com/itsTPM"
+    },
+    {
+      "title": "Spotify",
+      "icon": "Spotify-Logo.svg",
+      "url": "https://open.spotify.com/user/lyoshabt"
+    }
+  ],
+  "lists": [
+    {
+      "name": "Tech Stack",
+      "items": [
+        {
+          "name": "HTML",
+          "icon": "HTML-Logo.svg"
+        },
+        {
+          "name": "CSS",
+          "icon": "CSS-Logo.svg"
+        },
+        {
+          "name": "TailwindCSS",
+          "icon": "TailwindCSS-Logo.svg"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "JavaScript-Logo.svg"
+        },
+        {
+          "name": "Vue.js",
+          "icon": "Vue.js-Logo.svg"
+        }
+      ]
+    },
+    {
+      "name": "Tools I'm using",
+      "items": [
+        {
+          "name": "VS Code",
+          "icon": "VSCode-Logo.svg"
+        },
+        {
+          "name": "WebStorm",
+          "icon": "WebStorm-Logo.svg"
+        },
+        {
+          "name": "Git",
+          "icon": "Git-Logo.svg"
+        },
+        {
+          "name": "Vite",
+          "icon": "Vite-Logo.svg"
+        },
+        {
+          "name": "Figma",
+          "icon": "Figma-Logo.svg"
+        }
+      ]
+    }
+  ]
+}

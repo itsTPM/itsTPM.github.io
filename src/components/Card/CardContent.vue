@@ -2,58 +2,12 @@
 import List from '@/components/List/List.vue';
 import { HoverCard, HoverCardContent, HoverCardTrigger } from '@/components/ui/hover-card';
 
-const lists = [
-  {
-    name: 'Tech Stack',
-    items: [
-      {
-        name: 'HTML',
-        icon: 'HTML-Logo.svg',
-      },
-      {
-        name: 'CSS',
-        icon: 'CSS-Logo.svg',
-      },
-      {
-        name: 'TailwindCSS',
-        icon: 'TailwindCSS-Logo.svg',
-      },
-      {
-        name: 'JavaScript',
-        icon: 'JavaScript-Logo.svg',
-      },
-      {
-        name: 'Vue.js',
-        icon: 'Vue.js-Logo.svg',
-      },
-    ],
+const props = defineProps({
+  lists: {
+    type: Array,
+    required: true,
   },
-  {
-    name: "Tools I'm using",
-    items: [
-      {
-        name: 'VS Code',
-        icon: 'VSCode-Logo.svg',
-      },
-      {
-        name: 'WebStorm',
-        icon: 'WebStorm-Logo.svg',
-      },
-      {
-        name: 'Git',
-        icon: 'Git-Logo.svg',
-      },
-      {
-        name: 'Vite',
-        icon: 'Vite-Logo.svg',
-      },
-      {
-        name: 'Figma',
-        icon: 'Figma-Logo.svg',
-      },
-    ],
-  },
-];
+});
 </script>
 
 <template>
