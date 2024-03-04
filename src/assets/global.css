@@ -79,6 +79,6 @@
   }
 
   #app {
-    @apply min-h-dvh;
+    @apply min-h-dvh p-5;
   }
 }
