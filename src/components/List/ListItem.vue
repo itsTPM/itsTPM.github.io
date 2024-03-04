@@ -11,8 +11,8 @@ const iconSrc = new URL(`/src/assets/icons/${props.item.icon}`, import.meta.url)
 
 <template>
   <div
-    class="flex select-none flex-col items-center justify-center rounded-lg border bg-[rgba(0,0,0,0.2)] p-3 transition motion-safe:hover:scale-110">
-    <img :src="iconSrc" alt="" class="h-[64px] w-[64px] object-contain" draggable="false" />
+    class="flex select-none flex-col items-center justify-center rounded-lg border bg-black/20 p-3 transition motion-safe:hover:scale-110">
+    <img :src="iconSrc" alt="" class="h-16 w-16 object-contain" draggable="false" />
     <span>{{ item.name }}</span>
   </div>
 </template>
