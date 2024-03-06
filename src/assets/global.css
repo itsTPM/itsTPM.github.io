@@ -75,10 +75,10 @@
   }
 
   body {
-    @apply dark h-screen w-fit min-w-full bg-background text-foreground;
+    @apply dark h-screen w-fit min-w-full max-w-full bg-background text-foreground;
   }
 
   #app {
-    @apply min-h-dvh p-5;
+    @apply min-h-screen max-w-full p-5;
   }
 }

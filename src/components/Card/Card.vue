@@ -15,7 +15,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="flex rounded-lg border bg-[#0e0e0e] bg-card-avatar bg-cover sm:flex-col sm:bg-none">
+  <div class="flex max-w-full rounded-lg border bg-[#0e0e0e] bg-card-avatar bg-cover sm:flex-col sm:bg-none">
     <CardSidebar :links="links"></CardSidebar>
     <CardContent :lists="lists"></CardContent>
   </div>

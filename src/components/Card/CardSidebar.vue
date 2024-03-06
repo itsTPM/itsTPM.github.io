@@ -11,11 +11,11 @@ const props = defineProps({
 
 <template>
   <section
-    class="flex w-64 flex-col rounded-s-lg border-r sm:w-full sm:items-center sm:justify-between sm:rounded-none sm:border-0 sm:border-b sm:pt-10">
+    class="flex w-64 flex-col rounded-s-lg border-r sm:w-full sm:items-center sm:justify-between sm:rounded-none sm:border-0 sm:border-b sm:px-10 sm:pt-10">
     <div class="aspect-square rounded-ss-lg">
       <img
         alt="Avatar"
-        class="aspect-square h-full w-full max-w-full select-none rounded-ss-lg object-contain sm:w-64 sm:rounded-lg"
+        class="aspect-square w-64 select-none rounded-ss-lg object-contain sm:rounded-lg"
         draggable="false"
         src="https://avatars.githubusercontent.com/u/26815728" />
     </div>

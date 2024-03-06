@@ -92,6 +92,7 @@ module.exports = {
       ubuntu: ['Ubuntu', 'sans-serif'],
     },
     screens: {
+      xs: { max: '375px' },
       sm: { max: '767px' },
       md: { min: '768px', max: '1023px' },
       lg: { min: '1024px', max: '1279px' },
