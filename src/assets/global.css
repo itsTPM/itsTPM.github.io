@@ -75,7 +75,7 @@
   }
 
   body {
-    @apply dark h-screen bg-background text-foreground;
+    @apply dark h-screen w-fit min-w-full bg-background text-foreground;
   }
 
   #app {

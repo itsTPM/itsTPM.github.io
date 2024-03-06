@@ -11,18 +11,18 @@ const props = defineProps({
 
 <template>
   <section
-    class="flex w-64 flex-col rounded-s-lg border-r sm:w-full sm:items-center sm:justify-between sm:rounded-none sm:border-b sm:pt-10">
-    <div class="aspect-square max-h-64 max-w-64 rounded-ss-lg">
+    class="flex w-64 flex-col rounded-s-lg border-r sm:w-full sm:items-center sm:justify-between sm:rounded-none sm:border-0 sm:border-b sm:pt-10">
+    <div class="aspect-square rounded-ss-lg">
       <img
         alt="Avatar"
-        class="aspect-square max-h-full max-w-full select-none rounded-ss-lg object-contain sm:rounded-lg"
+        class="aspect-square h-full w-full max-w-full select-none rounded-ss-lg object-contain sm:w-64 sm:rounded-lg"
         draggable="false"
         src="https://avatars.githubusercontent.com/u/26815728" />
     </div>
     <div class="flex flex-grow flex-col items-center justify-between rounded-es-lg p-6 sm:gap-6">
       <div class="text-center">
-        <div class="font-mono text-[40px] leading-10">itsTPM</div>
-        <div class="font-ubuntu font-light">pseudo-frontend™</div>
+        <h1 class="font-mono text-[2.5rem] leading-10">itsTPM</h1>
+        <h2 class="font-ubuntu font-light">pseudo-frontend™</h2>
       </div>
       <div class="grid w-max grid-cols-3 grid-rows-1 gap-4">
         <CardSidebarButton v-for="item in links" :item="item"></CardSidebarButton>
