@@ -82,9 +82,6 @@ module.exports = {
         'collapsible-up': 'collapsible-up 0.2s ease-in-out',
         'bounce-to-right': 'bounce-to-right 2s cubic-bezier(.79,-0.09,.07,.98) ',
       },
-      backgroundImage: {
-        'card-avatar': "url('@/assets/bg.png')",
-      },
     },
     fontFamily: {
       sans: ['Inter', 'Open Sans', 'sans-serif'],

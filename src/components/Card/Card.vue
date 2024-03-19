@@ -15,7 +15,8 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="flex max-w-full rounded-lg border bg-[#0e0e0e] bg-card-avatar bg-cover sm:flex-col sm:bg-none">
+  <div
+    class="flex max-w-full rounded-lg border bg-[#0e0e0e] bg-gradient-to-br from-sky-100/5 to-sky-900/5 bg-cover sm:flex-col sm:bg-none">
     <CardSidebar :links="links"></CardSidebar>
     <CardContent :lists="lists"></CardContent>
   </div>
