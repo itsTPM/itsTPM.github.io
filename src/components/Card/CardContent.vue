@@ -14,7 +14,7 @@ const props = defineProps({
   <section class="flex h-full max-w-full flex-col items-baseline justify-center gap-9 rounded-r-lg px-10 py-12">
     <List v-for="(list, idx) in lists" :key="idx" :list="list"></List>
 
-    <HoverCard close-delay="200" openDelay="0">
+    <HoverCard :close-delay="200" :openDelay="0">
       <HoverCardTrigger>
         <span
           class="cursor-pointer select-none text-3xl after:inline-block after:transition after:content-['->'] motion-safe:after:animate-bounce-to-right motion-safe:hover:after:translate-x-2">
