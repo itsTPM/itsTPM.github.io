@@ -11,7 +11,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <section class="flex h-full max-w-full flex-col items-baseline justify-center gap-9 rounded-r-lg px-10 py-12">
+  <section class="flex h-full w-full max-w-full flex-col items-baseline justify-center gap-9 rounded-r-lg px-10 py-12">
     <List v-for="(list, idx) in lists" :key="idx" :list="list"></List>
 
     <HoverCard :close-delay="200" :openDelay="0">
