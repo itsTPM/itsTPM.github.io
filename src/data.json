@@ -67,5 +67,40 @@
         }
       ]
     }
-  ]
+  ],
+  "projects": {
+    "name": "My Projects",
+    "items": [
+      {
+        "name": "Foxford Tools",
+        "desc": "browser extension for students of Foxford online school",
+        "image": "https://camo.githubusercontent.com/1657d2964373185de6c699c3083988d5a2fed1f3aac2e84394342defb303436b/68747470733a2f2f666f782e69747374706d2e746563682f6c6f676f2e737667",
+        "buttons": [
+          {
+            "title": "Read More",
+            "type": "text",
+            "action": "openDialog",
+            "dialog": {
+              "title": "About Foxford Tools",
+              "description": "*(this text will be moved to a blog or something soon)*\n\nThis is an unofficial extension for the website of the russian-language online school Foxford, which adds a few useful features for students\n\nThe idea for this extension came to me because I myself wanted to add some features to the Foxford site that was missing for me. I could have just written my wishes to support and they would have passed it on to the developers, but I figured - why not practice my web development skills and make the first public extension?\n\nThe most popular feature was the automatic calculation of homework success rate. But percentages are not the only thing: the extension added the ability to add articles to bookmarks, organize tabs thanks to dynamic titles and much more\n\nThe project developed very well: everything started with a simple popup and a small script embedded in the page, and grew to a Vue-application with a rather beautiful design and an infinite number of JS-scripts to implement features embedded on the site\n\nI had to face a distribution problem: I couldn't pay for a Chrome developer account (because my country is isolated from the rest of the world), and Chrome wouldn't let anyone install self-signed extensions because it's **dangerous**..\n\nThe problem was solved in an interesting way: after a week of googling, I found a *test server for installing the extension* on the GoogleChromeLabs github account, which made it possible to sign the extension and distribute it bypassing Chrome's restrictions, albeit with a few crutches.\n\nThat's how my implementation of this *test server* was born: a frontend with handy installation instructions that everyone will understand https://github.com/itsTPM/extension-install-frontend, and a small backend made on my knees https://github.com/itsTPM/extension-install-backend.\n\nThe process of developing and thinking about the extension was interesting: I was not only writing code, but also designing a bit, looking for ideas for the extension and first of all looking for the best way to implement this or that function, rather than just writing it and later drowning in refactoring.\n\nOver the development time, I refreshed my knowledge of JS, learned Vue.js, discovered interesting projects like Radix and Shadcn, started using TailwindCSS on a regular basis and got back into web development after a long hiatus"
+            }
+          },
+          {
+            "title": "GitHub",
+            "type": "icon",
+            "icon": "GitHub-Logo.svg",
+            "action": "goToLink",
+            "href": "https://github.com/itsTPM/foxford-tools/"
+          },
+          {
+            "title": "Website",
+            "type": "icon",
+            "icon": "Globe.svg",
+            "action": "goToLink",
+            "href": "https://fox.itstpm.tech/"
+          }
+        ]
+      }
+    ]
+  }
 }
